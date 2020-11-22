@@ -14,6 +14,8 @@ public class App {
      approach was to make subsets (in the form of a list) of each book set so the discounts
      could be calculated more easily. The previous set is stored to do checks for the edge
      cases. */
+
+    // might eventually change this to use BigDecimals instead so there aren't rounding errors
     public double calculateTotal(Map<Integer, Integer> order) {
         // final cost
         double cost = 0.00;
